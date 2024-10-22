@@ -33,7 +33,7 @@ jobs:
   
         # Only keep Android artifact steps
         - name: Push to Releases
-          uses: actions/upload-artifact@v1
+          uses: actions/upload-artifact@v2
           with:
             path: "build/app/outputs/"  # Android APK output path for release builds
             name: dubug-apk

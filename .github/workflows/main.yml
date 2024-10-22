@@ -29,7 +29,7 @@ jobs:
         
   
         # Build Android APK in debug mode, you can change to `--release` for a release version
-        - run: flutter build apk --debug
+        - run: flutter build apk --release
   
         # Only keep Android artifact steps
         - name: Push to Releases
